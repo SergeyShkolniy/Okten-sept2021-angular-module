@@ -1,5 +1,6 @@
-<div>
-  {{comment.id}} -- {{comment.postId}} -- {{comment.email}}
-  <br>
-  {{comment.body}}
+<div class="comment">
+  <div>
+    {{comment.id}} -- {{comment.postId}} -- {{comment.email}}
+  </div>
+  <a [routerLink]="[comment.id]">details...</a>
 </div>

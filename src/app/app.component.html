@@ -1,5 +1,14 @@
-<app-users></app-users>
-<hr>
-<app-posts></app-posts>
-<hr>
-<app-comments></app-comments>
+<div>
+  Homework-02
+  <ul class="flex">
+    <li><a [routerLink]="['users']">All users</a></li>
+    <li><a [routerLink]="['posts']">All posts</a></li>
+    <li><a [routerLink]="['comments']">All comments</a></li>
+  </ul>
+  <div class="outlet">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+
+

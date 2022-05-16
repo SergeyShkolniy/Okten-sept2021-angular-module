@@ -1,0 +1,14 @@
+.container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comments {
+  padding: 25px 50px;
+}
+
+.commentDetails {
+  width: 600px;
+  padding-top: 75px;
+}

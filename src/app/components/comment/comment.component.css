@@ -1,0 +1,7 @@
+.comment {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  border-bottom: skyblue 1px solid;
+}
