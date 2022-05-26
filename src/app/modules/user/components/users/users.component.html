@@ -1,0 +1,9 @@
+<div class="container">
+  <div *ngIf="users" class="left">
+    <app-user *ngFor="let user of users" [user]="user"></app-user>
+  </div>
+  <div class="right">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+

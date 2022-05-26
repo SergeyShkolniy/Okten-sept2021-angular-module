@@ -1,0 +1,20 @@
+.container {
+  height: 60px;
+  background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.active {
+  color: darkorange;
+  text-shadow: 1px 1px 1px black;
+}

@@ -1,0 +1,17 @@
+.comment {
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkorange;
+}
+
+.active {
+  color: darkorange;
+}

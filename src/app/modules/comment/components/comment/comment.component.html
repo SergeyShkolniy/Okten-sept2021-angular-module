@@ -1,0 +1,4 @@
+<div class="comment" routerLinkActive="active" *ngIf="comment">
+  <a routerLink="{{comment.id}}" [state]="{comment}"> {{comment.id}} -- {{comment.name}}</a>
+</div>
+
